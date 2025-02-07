@@ -39,6 +39,7 @@ body {
 img{
 width: 250px;
 -webkit-user-drag: none;
-border-radius: 15px; 
+border-radius: 15px;
+cursor: pointer;
 }
 

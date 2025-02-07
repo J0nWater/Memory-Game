@@ -52,7 +52,7 @@ function showCard(imgId, picture){
 }
 
 function closeCards(){
-    if(firstCard !== ''){
+    if(firstCard !== '' && secondCardId !== ''){
         document.getElementById(firstCardId).innerHTML = /*HTML*/`
         <img onclick="showCard('${firstCardId}', '${firstCard}')" class="cardHidden" src="${firstCard}">
         `;
